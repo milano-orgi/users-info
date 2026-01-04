@@ -27,7 +27,6 @@ function Header() {
         <a href="#">Contact</a>
         <button className="login">Login</button>
 
-        {/* MUHIM JOY */}
         <button
           className={mode === "light" ? "dark-btn" : "light-btn"}
           onClick={toggleMode}>
